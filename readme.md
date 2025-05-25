@@ -37,7 +37,7 @@ A modern, professional web application that provides instant unit conversions as
 ## 🚀 Quick Start
 
 ### Option 1: Direct Download
-1. Download the HTML file
+1. Download the file
 2. Open it in any modern web browser
 3. Start converting! Type in any field to see instant results
 
@@ -100,20 +100,10 @@ Simply open the HTML file in your browser - no server required!
 realtime-unit-converter/
 │
 ├── index.html              # Main application file
+├── script.js               # Javascript code file
+├── style.css               # css code
 ├── README.md              # Project documentation
-└── assets/               # Optional assets folder
-    ├── screenshots/      # Demo images
-    └── icons/           # Favicon and app icons
 ```
-
-### Single File Architecture
-The entire application is contained in one HTML file with:
-- **Embedded CSS** - All styles included in `<style>` tags
-- **Embedded JavaScript** - All functionality in `<script>` tags
-- **External images** - Referenced via CDN links
-- **Self-contained** - No additional files needed
-
----
 
 ## 🎨 Customization
 
@@ -164,48 +154,6 @@ function celsiusToKelvin(celsius) {
 
 ---
 
-## 📱 Screenshots
-
-### Desktop View
-*Clean, professional interface with side-by-side conversion fields*
-
-### Mobile View  
-*Optimized mobile layout with stacked inputs for easy thumb navigation*
-
-### Real-time Animation
-*Smooth visual feedback shows active conversions with color transitions*
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-### Reporting Issues
-- Use the GitHub issue tracker
-- Include browser information and steps to reproduce
-- Add screenshots if relevant
-
-### Feature Requests
-- Check existing issues first
-- Clearly describe the proposed feature
-- Explain the use case and benefits
-
-### Pull Requests
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Maintain the single-file architecture
-- Follow existing code style and formatting
-- Test on multiple browsers and devices
-- Update documentation as needed
-
----
-
 ## 📈 Future Enhancements
 
 ### Planned Features
@@ -251,9 +199,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Support
 
 ### Get Help
-- 📧 **Email**: [your.email@example.com](mailto:your.email@example.com)
-- 💬 **Issues**: [GitHub Issues](https://github.com/yourusername/realtime-unit-converter/issues)
-- 🐦 **Twitter**: [@yourusername](https://twitter.com/yourusername)
+- 📧 **Email**: [muhammedrisin999@gmail.com](mailto:muhammedrisin999@gmail.com)
 
 ### Show Your Support
 If you found this project helpful:
@@ -274,7 +220,7 @@ If you found this project helpful:
 
 **[⬆ Back to Top](#-real-time-unit-converter)**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Rizin](https://github.com/Rizin4)
 
 *Happy Converting! 🎯*
 
