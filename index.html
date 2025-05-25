@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <title>Real-time Unit Converter</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="script.js" defer></script>
-  </head>
-  <body>
+
+<head>
+    <title>Real-time Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
     <section id="home">
         <header>
             Real-time Unit Conversions<span class="realtime-indicator"></span>
@@ -17,33 +19,34 @@
                 <a href="#distance"><button>Distance</button></a>
             </div>
         </nav>
-    </section>    
+    </section>
 
     <div id="all-conversion-sections">
 
         <section id="temperature">
             <div class="converter-container">
                 <figure>
-                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="150px"/>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png"
+                        width="150px" />
                     <figcaption>Real-time Temperature Conversion</figcaption>
                 </figure>
                 <div class="conversion-form">
                     <div class="form-title">Temperature Converter</div>
-                    
+
                     <div class="input-group">
                         <div class="input-wrapper">
                             <label for="celsius">Celsius:</label>
                             <input type="number" id="celsius" placeholder="Enter temperature in °C" step="0.01">
                         </div>
-                        
+
                         <div class="conversion-arrow">⇅</div>
-                        
+
                         <div class="input-wrapper">
                             <label for="fahrenheit">Fahrenheit:</label>
                             <input type="number" id="fahrenheit" placeholder="Enter temperature in °F" step="0.01">
                         </div>
                     </div>
-                    
+
                     <div class="formula">
                         <strong>Formula:</strong> °F = (°C × 9/5) + 32 | °C = (°F - 32) × 5/9
                     </div>
@@ -51,29 +54,30 @@
             </div>
         </section>
 
-        <section id="weight">          
+        <section id="weight">
             <div class="converter-container">
                 <figure>
-                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" width="150px"/>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png"
+                        width="150px" />
                     <figcaption>Real-time Weight Conversion</figcaption>
                 </figure>
                 <div class="conversion-form">
                     <div class="form-title">Weight Converter</div>
-                    
+
                     <div class="input-group">
                         <div class="input-wrapper">
                             <label for="kilograms">Kilograms:</label>
                             <input type="number" id="kilograms" placeholder="Enter weight in kg" step="0.01">
                         </div>
-                        
+
                         <div class="conversion-arrow">⇅</div>
-                        
+
                         <div class="input-wrapper">
                             <label for="pounds">Pounds:</label>
                             <input type="number" id="pounds" placeholder="Enter weight in lbs" step="0.01">
                         </div>
                     </div>
-                    
+
                     <div class="formula">
                         <strong>Formula:</strong> lbs = kg × 2.20462 | kg = lbs ÷ 2.20462
                     </div>
@@ -84,26 +88,27 @@
         <section id="distance">
             <div class="converter-container">
                 <figure>
-                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png" width="150px"/>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png"
+                        width="150px" />
                     <figcaption>Real-time Distance Conversion</figcaption>
                 </figure>
                 <div class="conversion-form">
                     <div class="form-title">Distance Converter</div>
-                    
+
                     <div class="input-group">
                         <div class="input-wrapper">
                             <label for="kilometers">Kilometers:</label>
                             <input type="number" id="kilometers" placeholder="Enter distance in km" step="0.01">
                         </div>
-                        
+
                         <div class="conversion-arrow">⇅</div>
-                        
+
                         <div class="input-wrapper">
                             <label for="miles">Miles:</label>
                             <input type="number" id="miles" placeholder="Enter distance in miles" step="0.01">
                         </div>
                     </div>
-                    
+
                     <div class="formula">
                         <strong>Formula:</strong> miles = km ÷ 1.609344 | km = miles × 1.609344
                     </div>
@@ -115,11 +120,13 @@
 
     <div id="go-home">
         <a href="#home">
-            <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+            <img
+                src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg" />
         </a>
     </div>
 
     <footer>Real-time Unit Converter - created by Muhammed Risin</footer>
 
-  </body>
+</body>
+
 </html>
